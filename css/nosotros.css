@@ -1,0 +1,46 @@
+#nosotros h2{
+    color:#333;
+    font-size: 1em;
+    text-align: center;
+}
+
+#nosotros p{
+    color:#333;
+    font-size: 0.7em;
+    text-align: justify;
+    padding: 15px;
+}
+
+.raya-azul{
+    width:50px;
+    height: 1px;
+    background-color: #003333;
+    margin: 0 auto;
+}
+
+#nosotros .contenedor {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nosotros article{
+    margin:15px;  
+}
+
+
+#nosotros img{
+    width:100%;
+    max-width:285px;   
+}
+
+#nosotros h4 {
+    color:#333;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.contenedor,p {
+    text-align: center;
+    padding: 5px;
+}
