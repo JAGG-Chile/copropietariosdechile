@@ -19,7 +19,7 @@
 }
 
 #nosotros .contenedor {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -28,10 +28,9 @@
     margin:15px;  
 }
 
-
 #nosotros img{
-    width:100%;
-    max-width:285px;   
+    width:200px;
+    height:200px;   
 }
 
 #nosotros h4 {
@@ -43,4 +42,29 @@
 .contenedor,p {
     text-align: center;
     padding: 5px;
+}
+
+@media (min-width:760px){
+    #nosotros h2{
+        font-size: 1.5em;
+    }
+
+    #nosotros h4 {
+        font-size: 1em;
+        width:285px;
+    }
+
+    #nosotros p {
+        font-size: 0.8em;
+    }
+
+    #nosotros .contenedor p{
+        font-size: 0.7em;
+        width:285px;
+    }
+    #nosotros img{
+        width:285px;
+        height:285px;   
+        padding:20px;
+    }
 }

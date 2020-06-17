@@ -21,7 +21,7 @@
 }
 
 #banner h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
 }
 #banner p {
@@ -44,3 +44,12 @@
 #banner a:hover {
     background: rgba(51,51,51,0.5);
 }
+
+@media (min-width:760px){
+    #banner h2{
+        font-size: 2em;
+    }
+
+    #banner p {
+        font-size: 1.5em;
+    }

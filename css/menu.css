@@ -42,3 +42,44 @@ header h1 {
 #menu-bar:checked ~ .menu {
     transform: translateX(0%);
 }
+
+/* no mostrar correo y telefono en header */
+header p{
+    display: none;
+}
+
+@media (min-width:1024px) {
+    .menu {
+        position:static;
+        transform:translateX(0%);
+        float: right;
+        display: flex;
+        background:#fff;
+        height: 30px;
+        width:auto;
+    }
+
+    .menu a{
+        display: block;
+        color: #333;
+        border-bottom: none;
+        height: 35px;
+    }
+
+    .menu a:hover {
+        background: rgba(20,20,20,0.5);
+    }
+
+    header label {
+        display:none;
+    }
+
+    #header p{
+        display: inline-block;
+        position: static;
+        float: left;
+        color: #333;
+        font-size: 0.9em;
+        margin-top:10px;
+    }
+}

@@ -1,0 +1,43 @@
+#pie {
+background-color:#000;
+color:#fff;
+}
+
+#pie .contenedor{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#art-menu {
+    width:20%;
+}
+#art-rrss{
+    width:55%;
+    
+}
+
+#art-horario{
+    width:25%;
+}
+#pie h4{
+    font-size: 0.7em;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-bottom:5px;
+}
+
+#pie p{
+    font-size: 0.5em;
+    text-align: left;
+    padding-bottom:2px;
+    padding:0px;
+}
+
+#pie a{
+    display:block;
+    text-decoration: none;
+    color:#fff;
+    font-size: 0.5em;
+    text-align: left;
+    padding-bottom:2px;
+}
