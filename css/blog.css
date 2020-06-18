@@ -17,7 +17,8 @@
     color:#333;
     font-size: 0.7em;
     text-align: justify;
-    padding: 0px 20px 20px 20px;
+    padding: 15px 0px;
+    width:250px;
 }
 
 #blog .contenedor{
@@ -26,13 +27,13 @@
     flex-wrap: wrap;
 }
 
-#nosotros article{
-    margin:15px;  
+#blog article {
+    margin:30px;
 }
 
 #blog img{
     width:100%;
-    max-width:285px;
+    max-width:250px;
     padding-top: 15px;   
 }
 
@@ -53,11 +54,32 @@
     #blog .contenedor p{
         font-size: 0.7em;
         width:285px;
+        padding: 5px 0px;
     }
     #blog img{
-        width:285x;
-        height:285px;
-        padding:20px;
+        width:100%;
+        max-width:285px;
     }
 
+}
+
+@media (min-width:1024px){
+    #blog {
+        margin-top:50px;
+    }
+
+    #blog .contenedor p{
+        font-size: 0.8em;
+        margin-top:15px;
+        padding: 0px 15px;
+    }
+
+    #blog img{
+        width:100%;
+        max-width:250px;
+    }
+
+    #blog article {
+        margin:10px;
+    }
 }

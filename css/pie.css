@@ -41,3 +41,46 @@ color:#fff;
     text-align: left;
     padding-bottom:2px;
 }
+
+@media (min-width:760px){
+    #art-menu {
+        width:40%;
+    }
+    #art-rrss{
+        width:40%;
+        
+    }
+    
+    #art-horario{
+        width:20%;
+    }
+}
+@media (min-width:1024px){
+    #pie {
+        margin-top:50px;
+    }
+    
+    #pie h4{
+        font-size:1em;
+    }
+
+    #pie p{
+        font-size:0.8em;
+    }
+
+    #pie a{
+        font-size:0.8em;
+    }
+
+    #art-menu {
+        width:40%;
+    }
+    #art-rrss{
+        width:40%;
+        
+    }
+    
+    #art-horario{
+        width:20%;
+    }
+}

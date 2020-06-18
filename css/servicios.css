@@ -4,7 +4,7 @@
     text-align: center;
 }
 #servicios h2{
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 10px;
 }
 
@@ -34,11 +34,36 @@
 
 @media (min-width:760px){
     #servicios h2{
-        font-size: 1.5em; 
+        font-size: 2em; 
     }
     
     #servicios h4{
         font-size: 1em;
-        width:350px;
+        width:285px;
+    }
+}
+
+@media (min-width:1024px){
+
+    #servicios {
+        margin-top:50px;
+    }
+    
+    #servicios article{
+        margin:0px;  
+    }
+
+    #servicios h2{
+        font-size: 2em;
+    }
+
+    #servicios h4{
+        font-size: 1em;
+        width:285px;
+        margin-bottom:15px;
+    }
+
+    #servicios img{
+        margin: 15px;
     }
 }

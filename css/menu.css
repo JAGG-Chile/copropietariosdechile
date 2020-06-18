@@ -74,12 +74,13 @@ header p{
         display:none;
     }
 
-    #header p{
-        display: inline-block;
+    header p{
+        display: block;
         position: static;
         float: left;
         color: #333;
         font-size: 0.9em;
         margin-top:10px;
     }
+
 }

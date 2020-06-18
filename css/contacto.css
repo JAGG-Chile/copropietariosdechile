@@ -16,7 +16,8 @@
     transform: translateX(-50%) translateY(-50%);
     color:#003333;
     background-color:rgba(20,20,20,0.3);
-    width: 70% ;
+    width: 80%;
+    height: 80%;
 }
 
 #contacto h2{
@@ -46,4 +47,58 @@
     border:0px;
     font-size: 0.8em;
     margin-top: 3%;
+}
+
+@media (min-width:760px){
+    #contacto .contenedor {
+        top:50%;
+        left:50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 70%;
+        height: 70%;
+    }
+
+    #contacto h2{
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    .etiqueta {
+        font-size:0.9em;
+    }
+
+    .btn-input{
+        height: 30px;*/
+    }
+    #btn-enviar{
+        font-size: 1em;
+        height: 30px;
+    }
+
+    .mensaje {
+        height: 70px;
+    }
+}
+
+@media (min-width:1024px){
+    #contacto {
+        margin-top:50px;
+    }
+
+    #contacto .contenedor {
+        top:50%;
+        left:50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 50%;
+        height: 50%;
+    }
+
+    #contacto h2{
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    .mensaje {
+        height: 100px;
+    }
 }
